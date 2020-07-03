@@ -18,7 +18,7 @@ public class CustomFileReader {
                 resultingArr.append((char) i);
             }
         } catch (IOException ex) {
-            throw new ProgramException(ex);
+            throw new ProgramException("File reader Exception", ex);
         }
         return resultingArr.toString();
     }
