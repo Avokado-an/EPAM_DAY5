@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="029aba6d-fd52-4641-86fb-7529c18aba27" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dznNt6XEA7mET9YiBVPC8G899C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EPAM_DAY4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mi\IdeaProjects\EPAM_MAIN\EPAM_DAY5\data\startingData" />
+      <recent name="C:\Users\Mi\IdeaProjects\EPAM_MAIN\EPAM_DAY5\data\resulringData" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TextChangeServiceTest">
+    <configuration name="TextChangeServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextChangeServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextChangeServiceTest.changeCharacterInWordsValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextChangeServiceTest" />
+      <option name="METHOD_NAME" value="changeCharacterInWordsValidTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextChangeServiceTest.changeSubstringToEqualOneExceptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextChangeServiceTest" />
+      <option name="METHOD_NAME" value="changeSubstringToEqualOneExceptionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextRemovalServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextRemovalServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextRemovalServiceTest.removeNonLetterCharactersValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextRemovalServiceTest" />
+      <option name="METHOD_NAME" value="removeNonLetterCharactersValidTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TextChangeServiceTest" />
+        <item itemvalue="TestNG.TextRemovalServiceTest" />
+        <item itemvalue="TestNG.TextRemovalServiceTest.removeNonLetterCharactersValidTest" />
+        <item itemvalue="TestNG.TextChangeServiceTest.changeSubstringToEqualOneExceptionTest" />
+        <item itemvalue="TestNG.TextChangeServiceTest.changeCharacterInWordsValidTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="029aba6d-fd52-4641-86fb-7529c18aba27" name="Default Changelist" comment="" />
+      <created>1593436752050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593436752050</updated>
+      <workItem from="1593436755507" duration="43800000" />
+      <workItem from="1593680705146" duration="10926000" />
+      <workItem from="1593769153760" duration="10035000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1593606602356">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593606602356" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593438249370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593438249370" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593611328483">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1593611328483" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1593601081722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593601081722" />
+    <state x="16" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593436955000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="16" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1593436955000" />
+    <state x="531" y="273" width="473" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593511445635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="531" y="273" width="473" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1593511445635" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1593695321286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593695321286" />
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1593779177635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1593779177635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1593779177635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1593779177635">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1593438235471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1593438235471" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1593606581414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593606581414" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1593769574263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593769574263" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593773655756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593773655756" />
+  </component>
+</project>
