@@ -6,6 +6,7 @@ import com.anton.day5.service.TextChangeService;
 public class ArrayChangeServiceImplementation implements TextChangeService {
     private static final String SPACE = " ";
     private static final String ERROR_MESSAGE = "Wrong data";
+    private static final String PUNCTUATION_SIGNS = ",.:;!? \n\r";
 
     @Override
     public String changeCharacterInWords(int position, char replacement, String text) throws ProgramException {
@@ -18,7 +19,7 @@ public class ArrayChangeServiceImplementation implements TextChangeService {
         for (String word : words) {
             wordChars = word.toCharArray();
             int size = wordChars.length;
-            while (isPunctuationSign(wordChars[size - 1])) {
+            while (isWordEnd(wordChars[size - 1])) {
                 size--;
             }
             if (size > position) {
@@ -65,7 +66,7 @@ public class ArrayChangeServiceImplementation implements TextChangeService {
         char[] words = text.toCharArray();
         for (int i = 0; i < words.length; i++) {
             int j = i;
-            while (j < words.length && !isPunctuationSign(words[j])) {
+            while (j < words.length && !isWordEnd(words[j])) {
                 j++;
             }
             if ((j - i) == length) {
@@ -95,12 +96,7 @@ public class ArrayChangeServiceImplementation implements TextChangeService {
         return res;
     }
 
-    private boolean isPunctuationSign(char sign) {
-        boolean flag = false;
-        if (sign == ',' || sign == '.' || sign == '-' || sign == '!' || sign == '?' ||
-                sign == '\n' || sign == ';' || sign == ':' || sign == ' ') {
-            flag = true;
-        }
-        return flag;
+    private boolean isWordEnd(char ch) {
+        return PUNCTUATION_SIGNS.indexOf(ch) != -1;
     }
 }

@@ -5,6 +5,8 @@ import com.anton.day5.service.TextRemovalService;
 
 public class ArrayRemovalServiceImplementation implements TextRemovalService {
     private static final String ERROR_MESSAGE = "Wrong data";
+    private static final String VOWEL = "euioaуеэоаыяию";
+    private static final String PUNCTUATION_SIGNS = ",.:;!? \n\r";
 
     @Override
     public String removeNonLetterCharacters(String text) throws ProgramException {
@@ -45,28 +47,12 @@ public class ArrayRemovalServiceImplementation implements TextRemovalService {
     }
 
     private boolean isWordEnd(char ch) {
-        boolean flag = false;
-        if (ch == ' ' || ch == '.' || ch == ',' || ch == ';' || ch == ':' || ch == '!' ||
-                ch == '?' || ch == '\n' || ch == '\r'
-        ) {
-            flag = true;
-        }
-        return flag;
+        return PUNCTUATION_SIGNS.indexOf(ch) != -1;
     }
 
     private boolean isVowel(char ch) {
-        boolean flag = false;
-        if (ch == 'e' || ch == 'y' || ch == 'u' || ch == 'i' || ch == 'o' || ch == 'a' ||
-                ch == 'у' || ch == 'е' || ch == 'э' || ch == 'о' || ch == 'а' ||
-                ch == 'ы' || ch == 'я' || ch == 'и' || ch == 'ю' || ch == 'E' ||
-                ch == 'Y' || ch == 'U' || ch == 'I' || ch == 'O' || ch == 'A' ||
-                ch == 'У' || ch == 'Е' || ch == 'Э' || ch == 'О' || ch == 'А' ||
-                ch == 'Ы' || ch == 'Я' || ch == 'И' || ch == 'Ю'
-
-        ) {
-            flag = true;
-        }
-        return flag;
+        char firstLetter = Character.toLowerCase(ch);
+        return VOWEL.indexOf(firstLetter) != -1;
     }
 
     private boolean isLetterOrSpace(char ch) {

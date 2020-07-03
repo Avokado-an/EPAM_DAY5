@@ -6,7 +6,7 @@ import com.anton.day5.service.TextRemovalService;
 public class StringRemovalServiceImplementation implements TextRemovalService {
     private static final String ERROR_MESSAGE = "Wrong data";
     private static final String SPACE = " ";
-    private static final String VOWELS = "EIOUAeuioaуеэоаыяиюЮИЯЫАОЭЕУ";
+    private static final String VOWELS = "euioaуеэоаыяию";
     private static final String LETTERS_AND_SPACE = "([^а-яА-Яa-zA-Z, \\s]+)";
 
     @Override
@@ -41,7 +41,7 @@ public class StringRemovalServiceImplementation implements TextRemovalService {
     private boolean startsWithVowel(String word) {
         char[] letters = word.toCharArray();
         boolean flag = false;
-        if (VOWELS.contains(String.valueOf(letters[0]))) {
+        if (VOWELS.contains(String.valueOf(letters[0]).toLowerCase())) {
             flag = true;
         }
         return flag;

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="029aba6d-fd52-4641-86fb-7529c18aba27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/creator/TextCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anton/day5/creator/TextCreatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day5/reader/ConsoleReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/reader/ConsoleReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day5/reader/CustomFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/reader/CustomFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/ArrayChangeServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/ArrayChangeServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/ArrayRemovalServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/ArrayRemovalServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/StringChangeServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/StringChangeServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/StringRemovalServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day5/service/impl/StringRemovalServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayChangeServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayChangeServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayRemovalServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayRemovalServiceImplementation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EPAM_DAY4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../scheduler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,7 +56,7 @@
       <recent name="C:\Users\Mi\IdeaProjects\EPAM_MAIN\EPAM_DAY5\data\resulringData" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TextCreatorTest.readDataExceptionTest">
+  <component name="RunManager" selected="TestNG.TextRemovalServiceTest">
     <configuration name="CustomFileReaderTest.readDataExceptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM_DAY5" />
       <extension name="coverage">
@@ -66,24 +68,6 @@
       <option name="PACKAGE_NAME" value="com.anton.day5.reader" />
       <option name="MAIN_CLASS_NAME" value="com.anton.day5.reader.CustomFileReaderTest" />
       <option name="METHOD_NAME" value="readDataExceptionTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomFileReaderTest.readDataValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EPAM_DAY5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anton.day5.reader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.anton.day5.reader" />
-      <option name="MAIN_CLASS_NAME" value="com.anton.day5.reader.CustomFileReaderTest" />
-      <option name="METHOD_NAME" value="readDataValidTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,13 +128,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextRemovalServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextRemovalServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TextRemovalServiceTest" />
+        <item itemvalue="TestNG.TextChangeServiceTest" />
         <item itemvalue="TestNG.TextCreatorTest.readDataExceptionTest" />
         <item itemvalue="TestNG.TextCreatorTest.createTextFromFileValidTest" />
         <item itemvalue="TestNG.CustomFileReaderTest.readDataExceptionTest" />
-        <item itemvalue="TestNG.CustomFileReaderTest.readDataValidTest" />
-        <item itemvalue="TestNG.TextChangeServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,7 @@
       <updated>1593436752050</updated>
       <workItem from="1593436755507" duration="43800000" />
       <workItem from="1593680705146" duration="10926000" />
-      <workItem from="1593769153760" duration="12381000" />
+      <workItem from="1593769153760" duration="14147000" />
     </task>
     <servers />
   </component>
@@ -198,26 +199,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="531" y="273" width="473" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1593511445635" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1593695321286">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1593784674499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593695321286" />
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1593784140435">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593784674499" />
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1593785980999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593784140435" />
-    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1593784140435">
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593785980999" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1593785980999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593784140435" />
-    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1593784140435">
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593785980999" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1593785980998">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593784140435" />
-    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1593784140435">
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593785980998" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1593785980999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593784140435" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593785980999" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1593438235471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -6,6 +6,7 @@ import com.anton.day5.service.TextChangeService;
 public class StringChangeServiceImplementation implements TextChangeService {
     private static final String SPACE = " ";
     private static final String ERROR_MESSAGE = "Wrong data";
+    private static final String PUNCTUATION_SIGNS = ",.:;!? \n\r";
 
     @Override
     public String changeCharacterInWords(int position, char replacement, String text) throws ProgramException {
