@@ -12,10 +12,12 @@ public class RegexRemovalServiceImplementation implements TextRemovalService {
     private static final String NON_VOWELS = "[^" + VOWELS + "]";
     private static final String NON_LETTERS = "^а-яА-Яa-zA-Z";
     private static final String SPACE = " ";
+    private static final String SPECIFIC_LENGTH = "{%d}";
     private static final String WORD_BOUND = "\\b";
     private static final String NON_SPACE_CHARACTER = "\\S";
     private static final String LETTERS_AND_SPACE = "([" + NON_LETTERS + ", " + SPACE + "]+)";
-    private static final String SPECIAL_LENGTH_CONSONANT = WORD_BOUND + NON_VOWELS + NON_SPACE_CHARACTER + "{%d}" + WORD_BOUND;
+    private static final String SPECIAL_LENGTH_CONSONANT
+            = WORD_BOUND + NON_VOWELS + NON_SPACE_CHARACTER + SPECIFIC_LENGTH + WORD_BOUND;
 
     @Override
     public String removeNonLetterCharacters(String text) throws ProgramException {

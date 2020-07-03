@@ -1,6 +1,6 @@
 package com.anton.day5.exception;
 
-public class ProgramException extends Exception{ //todo if  exception is thrown in catch - put ex in constructor
+public class ProgramException extends Exception {
     public ProgramException() {
     }
 

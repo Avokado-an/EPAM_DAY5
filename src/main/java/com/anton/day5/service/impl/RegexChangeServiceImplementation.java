@@ -14,9 +14,9 @@ public class RegexChangeServiceImplementation implements TextChangeService {
     private static final String NUMBER_OR_LETTER = "\\w";
     private static final String SPECIFIC_LENGTH = "{%d}";
     private static final String LENGTH_MORE_THAN = "{%d,}";
-    private static final String NON_PUNCTUATION_REGEX = "[^" + PUNCTUATION_SIGNS + "]";
+    private static final String NON_PUNCTUATION_SIGNS = "[^" + PUNCTUATION_SIGNS + "]";
     private static final String WORDS_LONGER_THAN =
-            WORD_BOUND + NON_SPACE_CHARACTER + LENGTH_MORE_THAN + NON_PUNCTUATION_REGEX + WORD_BOUND;
+            WORD_BOUND + NON_SPACE_CHARACTER + LENGTH_MORE_THAN + NON_PUNCTUATION_SIGNS + WORD_BOUND;
     private static final String SPECIFIC_LENGTH_WORDS =
             WORD_BOUND + NUMBER_OR_LETTER + SPECIFIC_LENGTH + WORD_BOUND;
 
