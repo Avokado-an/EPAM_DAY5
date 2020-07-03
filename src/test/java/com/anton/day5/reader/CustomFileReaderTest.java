@@ -20,7 +20,7 @@ public class CustomFileReaderTest {
     public Object[][] createValidFiles() {
         return new Object[][]{
                 {"data/resultingData/resultingData1.txt", "nike nike... nike. nik. ni..."},
-                {"data/startingData/startingData5.txt", "nice Ecin Eciin ecin eciin"}
+                {"data/startingData/startingData1.txt", "nice nice... nice. nic. ni..."}
         };
     }
 

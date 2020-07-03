@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="029aba6d-fd52-4641-86fb-7529c18aba27" name="Default Changelist" comment="" />
+    <list default="true" id="029aba6d-fd52-4641-86fb-7529c18aba27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/resultingData/resultingData2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/resultingData/resultingData3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/resultingData/resultingData4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/resultingData/resultingData5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/startingData/startingData2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/startingData/startingData3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/startingData/startingData4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/startingData/startingData5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day5/reader/CustomFileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day5/reader/CustomFileReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayChangeServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayChangeServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayRemovalServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/ArrayRemovalServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/RegexChangeServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/RegexChangeServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/RegexRemovalServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/RegexRemovalServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/StringChangeServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/StringChangeServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/StringRemovalServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day5/service/impl/StringRemovalServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day5/reader/CustomFileReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day5/reader/CustomFileReaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day5/service/TextChangeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day5/service/TextChangeServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +47,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dznNt6XEA7mET9YiBVPC8G899C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EPAM_DAY4" />
@@ -43,7 +69,43 @@
       <recent name="C:\Users\Mi\IdeaProjects\EPAM_MAIN\EPAM_DAY5\data\resulringData" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TextChangeServiceTest">
+  <component name="RunManager" selected="TestNG.CustomFileReaderTest.readDataExceptionTest">
+    <configuration name="CustomFileReaderTest.readDataExceptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.reader.CustomFileReaderTest" />
+      <option name="METHOD_NAME" value="readDataExceptionTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomFileReaderTest.readDataValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_DAY5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day5.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day5.reader" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day5.reader.CustomFileReaderTest" />
+      <option name="METHOD_NAME" value="readDataValidTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextChangeServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM_DAY5" />
       <extension name="coverage">
@@ -55,42 +117,6 @@
       <option name="PACKAGE_NAME" value="com.anton.day5.service" />
       <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextChangeServiceTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextChangeServiceTest.changeCharacterInWordsValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EPAM_DAY5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anton.day5.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
-      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextChangeServiceTest" />
-      <option name="METHOD_NAME" value="changeCharacterInWordsValidTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextChangeServiceTest.changeSubstringToEqualOneExceptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EPAM_DAY5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anton.day5.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.anton.day5.service" />
-      <option name="MAIN_CLASS_NAME" value="com.anton.day5.service.TextChangeServiceTest" />
-      <option name="METHOD_NAME" value="changeSubstringToEqualOneExceptionTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CustomFileReaderTest.readDataExceptionTest" />
+        <item itemvalue="TestNG.CustomFileReaderTest.readDataValidTest" />
         <item itemvalue="TestNG.TextChangeServiceTest" />
         <item itemvalue="TestNG.TextRemovalServiceTest" />
         <item itemvalue="TestNG.TextRemovalServiceTest.removeNonLetterCharactersValidTest" />
-        <item itemvalue="TestNG.TextChangeServiceTest.changeSubstringToEqualOneExceptionTest" />
-        <item itemvalue="TestNG.TextChangeServiceTest.changeCharacterInWordsValidTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +180,7 @@
       <updated>1593436752050</updated>
       <workItem from="1593436755507" duration="43800000" />
       <workItem from="1593680705146" duration="10926000" />
-      <workItem from="1593769153760" duration="10035000" />
+      <workItem from="1593769153760" duration="10291000" />
     </task>
     <servers />
   </component>
@@ -190,22 +216,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593695321286" />
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1593779177635">
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1593779690168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
-    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1593779177635">
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593779690168" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1593779690168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
-    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1593779177635">
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593779690168" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1593779690168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
-    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1593779177635">
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593779690168" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1593779690168">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593779177635" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593779690168" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1593438235471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
