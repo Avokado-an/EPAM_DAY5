@@ -6,7 +6,7 @@ import com.anton.day5.service.TextChangeService;
 public class StringChangeServiceImplementation implements TextChangeService {
     private static final String SPACE = " ";
     private static final String ERROR_MESSAGE = "Wrong data";
-    private static final String PUNCTUATION_SIGNS = ",.:;!? \n\r";
+    private static final String PUNCTUATION_SIGNS = ",.:;!?";
 
     @Override
     public String changeCharacterInWords(int position, char replacement, String text) throws ProgramException {
@@ -17,7 +17,7 @@ public class StringChangeServiceImplementation implements TextChangeService {
         StringBuilder replacedText = new StringBuilder();
         for (String word : words) {
             int size = word.length();
-            while (containsPunctuationSign(word.substring(0, size))) {
+            while (isPunctuationSign(word, size - 1)) {
                 size--;
             }
             if (size > position) {
@@ -57,7 +57,7 @@ public class StringChangeServiceImplementation implements TextChangeService {
         StringBuilder replacedText = new StringBuilder();
         for (String word : words) {
             int size = word.length();
-            while (containsPunctuationSign(word.substring(0, size))) {
+            while (isPunctuationSign(word, size - 1)) {
                 size--;
             }
             if (size == length) {
@@ -70,18 +70,9 @@ public class StringChangeServiceImplementation implements TextChangeService {
         return replacedText.toString();
     }
 
-    private boolean containsPunctuationSign(String str) {
-        boolean flag = false;
-        if (str.contains(".") ||
-                str.contains("?") ||
-                str.contains("!") ||
-                str.contains(":") ||
-                str.contains(";") ||
-                str.contains(",")
-        ) {
-            flag = true;
-        }
-        return flag;
+    private boolean isPunctuationSign(String str, int index) {
+        char lastLetter = str.charAt(index);
+        return PUNCTUATION_SIGNS.indexOf(lastLetter) != -1;
     }
 
     private String replaceCharacter(String str, int position, char replacement) {
